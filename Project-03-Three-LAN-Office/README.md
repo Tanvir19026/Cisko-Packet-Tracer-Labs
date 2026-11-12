@@ -139,10 +139,21 @@ LAN, while the other directly connected LANs can continue communicating.
 
 ## Screenshots
 
-- `screenshots/01-three-lan-topology.png` — overall topology.
-- `screenshots/02-it-to-hr-ping.png` — IT to HR connectivity test.
-- `screenshots/03-hr-to-admin-ping.png` — HR to Admin connectivity test.
-- `screenshots/04-admin-to-it-ping.png` — Admin to IT connectivity test.
+
+## Screenshots
+
+### 1. Three-LAN Office Topology
+![Three LAN Topology](screenshots/01-three-lan-topology.png)
+
+### 2. IT to HR Connectivity
+![IT to HR Ping](screenshots/02-it-to-hr-ping.png)
+
+### 3. HR to Admin Connectivity
+![HR to Admin Ping](screenshots/03-hr-to-admin-ping.png)
+
+### 4. Admin to IT Connectivity
+![Admin to IT Ping](screenshots/04-admin-to-it-ping.png)
+
 
 ## Packet Tracer File
 
