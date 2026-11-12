@@ -1,0 +1,16 @@
+Project 04 — Small Office Wired and Wireless Network
+Subnet mask: 255.255.255.0 (/24)
+
+LAN: 192.168.10.0/24
+Default gateway: 192.168.10.1
+
+Router / gateway: 192.168.10.1
+PC0:               192.168.10.10
+PC1:               192.168.10.11
+Laptop0:           192.168.10.12
+Laptop1:           192.168.10.13
+Smartphone1:       192.168.10.14
+
+Default gateway for all clients: 192.168.10.1
+
+Verify each address against the saved Packet Tracer project before publishing.
