@@ -97,13 +97,7 @@ not need to be routed by the default gateway.
 - `configs/wireless-config-reference.txt` — wireless settings reference.
 - `test-results.md` — connectivity test summary.
 
-## Packet Tracer Project File
 
-Add the saved Packet Tracer `.pkt` file to this folder before publishing.
-Suggested filename: `Wired-Wireless-Office.pkt`.
-
-The `.pkt` file was not attached with the topology screenshot, so it is not
-included in this package.
 
 ## Learning Outcomes
 
