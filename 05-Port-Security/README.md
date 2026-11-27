@@ -22,6 +22,13 @@ Devices used:
 - Authorized PC connected to Fa0/1
 - An alternate PC used to test a port-security violation
 
+### Submitted Lab Screenshot
+
+![Port Security Packet Tracer screenshot](screenshots/portsec.png)
+
+This is the screenshot already stored in this project's `screenshots/` directory.
+
+
 ## Port Security Configuration
 
 The example configuration below was applied to Fa0/1:
@@ -81,6 +88,7 @@ Verify the secure MAC address and interface state again after recovery.
 ## Files
 
 - `port_security.pkt` — Packet Tracer lab file.
+- `screenshots/portsec.png` — submitted Port Security screenshot.
 
 ## Learning Outcomes
 
