@@ -12,7 +12,9 @@ A Cisco Packet Tracer lab demonstrating how multiple physical switch links can b
 
 ## Topology
 
-![EtherChannel LACP topology](screenshots/etherchannel-lacp-topology.png)
+![EtherChannel LACP topology](topology.svg)
+
+The diagram shows two Cisco 2960 switches joined by two physical member links bundled into Port-Channel 1. The actual Packet Tracer file is the source of truth for exact port and device placement.
 
 Devices used:
 - 2 Cisco 2960 switches
