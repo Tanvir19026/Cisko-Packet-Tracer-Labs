@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690">
+<defs><style>.title{font:700 28px Arial;fill:#14213d}.sub{font:700 20px Arial;fill:#243b53}.label{font:16px Arial;fill:#243b53}.small{font:14px Arial;fill:#526579}.sw{fill:#e7f6ef;stroke:#23845b;stroke-width:3}.pc{fill:#eaf2ff;stroke:#3569a8;stroke-width:2.5}.ln{stroke:#425466;stroke-width:5;fill:none}.blocked{stroke:#bd6b2c;stroke-width:5;stroke-dasharray:12 8;fill:none}</style></defs>
+<rect width="1200" height="690" fill="#fff"/>
+<text x="45" y="55" class="title">STP / RSTP — Three-Switch Redundant Topology</text>
+<rect x="465" y="110" width="270" height="120" rx="16" class="sw"/><text x="600" y="158" text-anchor="middle" class="sub">SW1</text><text x="600" y="190" text-anchor="middle" class="label">Root Bridge after priority change</text>
+<rect x="170" y="385" width="250" height="120" rx="16" class="sw"/><text x="295" y="435" text-anchor="middle" class="sub">SW2</text><text x="295" y="468" text-anchor="middle" class="small">Alternate path via SW3</text>
+<rect x="780" y="385" width="250" height="120" rx="16" class="sw"/><text x="905" y="435" text-anchor="middle" class="sub">SW3</text><text x="905" y="468" text-anchor="middle" class="small">Redundant switch path</text>
+<path d="M490 230 L380 385" class="ln"/><path d="M710 230 L820 385" class="ln"/><path d="M420 445 H780" class="blocked"/>
+<text x="405" y="300" class="label">Root / Forwarding</text><text x="780" y="300" class="label">Root / Forwarding</text><text x="600" y="420" text-anchor="middle" class="label">Redundant link — one end may block</text>
+<rect x="65" y="560" width="220" height="75" rx="13" class="pc"/><text x="175" y="606" text-anchor="middle" class="sub">PC0</text>
+<rect x="490" y="560" width="220" height="75" rx="13" class="pc"/><text x="600" y="606" text-anchor="middle" class="sub">PC1</text>
+<rect x="915" y="560" width="220" height="75" rx="13" class="pc"/><text x="1025" y="606" text-anchor="middle" class="sub">PC2</text>
+<path d="M295 505 L175 560" class="ln"/><path d="M600 230 V560" class="ln"/><path d="M905 505 L1025 560" class="ln"/>
+<text x="45" y="665" class="small">Conceptual triangle. Actual root and blocking-port selection depends on Bridge ID, costs and saved Packet Tracer state.</text>
+</svg>
