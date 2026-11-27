@@ -23,6 +23,13 @@ Devices visible in the submitted topology:
 
 The PC-facing switch port is configured as an edge port. During the test, the PC was replaced with another switch to generate BPDUs on that protected port.
 
+### Submitted Lab Screenshot
+
+![BPDU Guard test screenshot](screenshots/guard.png)
+
+This is the screenshot already stored in this project's `screenshots/` directory.
+
+
 ## PortFast and BPDU Guard Configuration
 
 On the end-device-facing switch port (example Fa0/1):
@@ -77,7 +84,7 @@ Use PortFast and BPDU Guard on end-device-facing edge ports, not ordinary switch
 ## Files
 
 - `vpduguard_portfast.pkt` — Packet Tracer lab file.
-- `screenshots/bpdu-guard-test.png` — submitted topology screenshot.
+- `screenshots/guard.png` — submitted BPDU Guard test screenshot.
 
 ## Learning Outcomes
 
