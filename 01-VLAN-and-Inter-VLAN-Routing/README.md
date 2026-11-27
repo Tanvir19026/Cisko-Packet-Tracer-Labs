@@ -13,7 +13,9 @@ A Cisco Packet Tracer lab collection demonstrating VLAN segmentation, trunking, 
 
 ## Topology
 
-The project contains multiple Packet Tracer activities. Open each `.pkt` file to inspect its own topology and device connections.
+![VLAN and Inter-VLAN Routing reference topologies](topology.svg)
+
+The diagram shows two common approaches covered in this project collection: Router-on-a-Stick and Layer 3 switch SVI routing. The project contains multiple Packet Tracer activities; open each `.pkt` file to inspect its exact topology and device connections. The diagram is a conceptual reference, not a claim that every activity uses both approaches.
 
 ## Lab Files
 
