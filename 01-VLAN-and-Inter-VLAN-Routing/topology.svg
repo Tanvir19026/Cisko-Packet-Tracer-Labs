@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><style>
+.title{font:700 28px Arial;fill:#14213d}.subtitle{font:700 19px Arial;fill:#243b53}.label{font:16px Arial;fill:#243b53}.small{font:14px Arial;fill:#526579}.node{fill:#eaf2ff;stroke:#3569a8;stroke-width:2.5}.switch{fill:#e7f6ef;stroke:#23845b;stroke-width:2.5}.router{fill:#fff1dc;stroke:#c27a18;stroke-width:2.5}.link{stroke:#425466;stroke-width:4;fill:none}.trunk{stroke:#b66a12;stroke-width:5;fill:none}.divider{stroke:#d3dce6;stroke-width:2}
+</style></defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<text x="45" y="52" class="title">VLAN and Inter-VLAN Routing — Reference Topologies</text>
+<text x="45" y="100" class="subtitle">A. Router-on-a-Stick</text>
+<rect x="60" y="145" width="220" height="115" rx="14" class="node"/><text x="170" y="185" text-anchor="middle" class="subtitle">PC Group A</text><text x="170" y="217" text-anchor="middle" class="label">VLAN 10</text>
+<rect x="60" y="315" width="220" height="115" rx="14" class="node"/><text x="170" y="355" text-anchor="middle" class="subtitle">PC Group B</text><text x="170" y="387" text-anchor="middle" class="label">VLAN 20</text>
+<rect x="430" y="225" width="255" height="145" rx="16" class="switch"/><text x="557" y="275" text-anchor="middle" class="subtitle">SW1 — Layer 2</text><text x="557" y="308" text-anchor="middle" class="label">Access ports + trunk</text><text x="557" y="340" text-anchor="middle" class="small">2960 Switch</text>
+<rect x="850" y="225" width="285" height="145" rx="16" class="router"/><text x="992" y="275" text-anchor="middle" class="subtitle">R1 — Router</text><text x="992" y="308" text-anchor="middle" class="label">G0/0.10 • G0/0.20</text><text x="992" y="340" text-anchor="middle" class="small">802.1Q subinterfaces</text>
+<path d="M280 202 H355 V260 H430" class="link"/><path d="M280 372 H355 V335 H430" class="link"/><path d="M685 297 H850" class="trunk"/><text x="767" y="278" text-anchor="middle" class="small">802.1Q trunk</text>
+<text x="45" y="475" class="subtitle">B. Layer 3 Switch with SVI Gateways</text>
+<rect x="60" y="530" width="220" height="115" rx="14" class="node"/><text x="170" y="570" text-anchor="middle" class="subtitle">PC Group A</text><text x="170" y="602" text-anchor="middle" class="label">VLAN 10</text>
+<rect x="355" y="530" width="220" height="115" rx="14" class="node"/><text x="465" y="570" text-anchor="middle" class="subtitle">PC Group B</text><text x="465" y="602" text-anchor="middle" class="label">VLAN 20</text>
+<rect x="735" y="525" width="400" height="130" rx="16" class="switch"/><text x="935" y="570" text-anchor="middle" class="subtitle">Layer 3 Switch</text><text x="935" y="605" text-anchor="middle" class="label">SVI: VLAN 10 gateway • VLAN 20 gateway</text><text x="935" y="632" text-anchor="middle" class="small">Inter-VLAN routing enabled</text>
+<path d="M280 587 H735" class="link"/><path d="M575 587 H735" class="link"/>
+<text x="45" y="710" class="small">Conceptual diagrams. Port numbers, IP addresses and exact device layout must be checked in each supplied .pkt activity.</text>
+</svg>
