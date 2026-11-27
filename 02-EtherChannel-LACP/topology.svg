@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs><style>.title{font:700 28px Arial;fill:#14213d}.sub{font:700 21px Arial;fill:#243b53}.label{font:16px Arial;fill:#243b53}.small{font:14px Arial;fill:#526579}.sw{fill:#e7f6ef;stroke:#23845b;stroke-width:3}.pc{fill:#eaf2ff;stroke:#3569a8;stroke-width:2.5}.link{stroke:#425466;stroke-width:4;fill:none}.lacp{stroke:#b66a12;stroke-width:5;fill:none}</style></defs>
+<rect width="1200" height="520" fill="#fff"/>
+<text x="45" y="55" class="title">EtherChannel with LACP — Network Topology</text>
+<rect x="70" y="165" width="250" height="145" rx="16" class="sw"/><text x="195" y="215" text-anchor="middle" class="sub">SW1</text><text x="195" y="250" text-anchor="middle" class="label">Cisco 2960</text><text x="195" y="280" text-anchor="middle" class="small">Fa0/1 • Fa0/2</text>
+<rect x="880" y="165" width="250" height="145" rx="16" class="sw"/><text x="1005" y="215" text-anchor="middle" class="sub">SW2</text><text x="1005" y="250" text-anchor="middle" class="label">Cisco 2960</text><text x="1005" y="280" text-anchor="middle" class="small">Fa0/1 • Fa0/2</text>
+<path d="M320 205 C480 135 720 135 880 205" class="lacp"/><path d="M320 270 C500 335 700 335 880 270" class="lacp"/>
+<text x="600" y="142" text-anchor="middle" class="label">Fa0/1 ↔ Fa0/1</text><text x="600" y="355" text-anchor="middle" class="label">Fa0/2 ↔ Fa0/2</text>
+<rect x="470" y="210" width="260" height="75" rx="12" fill="#fff1dc" stroke="#c27a18" stroke-width="2.5"/><text x="600" y="242" text-anchor="middle" class="sub">Port-Channel 1</text><text x="600" y="268" text-anchor="middle" class="small">LACP • mode active</text>
+<rect x="70" y="390" width="250" height="80" rx="14" class="pc"/><text x="195" y="438" text-anchor="middle" class="sub">PC-A</text><rect x="880" y="390" width="250" height="80" rx="14" class="pc"/><text x="1005" y="438" text-anchor="middle" class="sub">PC-B</text>
+<path d="M195 310 V390" class="link"/><path d="M1005 310 V390" class="link"/>
+<text x="600" y="430" text-anchor="middle" class="label">VLAN 10 — USERS</text>
+<text x="45" y="500" class="small">Two physical links are bundled as one logical Layer 2 Port-Channel. Verify exact port settings in the .pkt file.</text>
+</svg>
