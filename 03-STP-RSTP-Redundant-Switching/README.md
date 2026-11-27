@@ -25,6 +25,13 @@ Devices used:
 
 The PCs are connected to the switches and use the same IPv4 subnet.
 
+### Submitted Lab Screenshot
+
+![STP and RSTP Packet Tracer screenshot](screenshots/Ss2.png)
+
+This is the screenshot already stored in this project's `screenshots/` directory.
+
+
 ## IPv4 Addressing Plan
 
 Subnet mask: `255.255.255.0` (`/24`).
