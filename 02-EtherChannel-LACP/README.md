@@ -25,6 +25,13 @@ Devices used:
 
 The two physical links between the switches are bundled into Port-Channel 1.
 
+### Submitted Lab Screenshot
+
+![EtherChannel LACP Packet Tracer screenshot](screenshots/ss1.png)
+
+This is the screenshot already stored in this project's `screenshots/` directory.
+
+
 ## VLAN and LACP Configuration
 
 Apply the matching configuration on both switches. Adjust PC-facing access ports and trunk settings to match the saved topology.
@@ -82,7 +89,7 @@ EtherChannel provides aggregate bandwidth across multiple traffic flows and link
 ## Files
 
 - `etherchannel_lacp.pkt` — Packet Tracer lab file.
-- `screenshots/etherchannel-lacp-topology.png` — submitted topology screenshot.
+- `screenshots/ss1.png` — submitted Packet Tracer screenshot.
 
 ## Learning Outcomes
 
