@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs><style>.title{font:700 28px Arial;fill:#14213d}.sub{font:700 20px Arial;fill:#243b53}.label{font:16px Arial;fill:#243b53}.small{font:14px Arial;fill:#526579}.sw{fill:#e7f6ef;stroke:#23845b;stroke-width:3}.pc{fill:#eaf2ff;stroke:#3569a8;stroke-width:2.5}.bad{fill:#fff0ed;stroke:#c64a3b;stroke-width:2.5}.ln{stroke:#425466;stroke-width:5;fill:none}.dash{stroke:#c64a3b;stroke-width:4;stroke-dasharray:10 7;fill:none}</style></defs>
+<rect width="1200" height="560" fill="#fff"/>
+<text x="45" y="55" class="title">Switch Port Security — Sticky MAC and Violation Test</text>
+<text x="70" y="120" class="sub">1. Authorized device</text>
+<rect x="70" y="160" width="300" height="140" rx="16" class="sw"/><text x="220" y="210" text-anchor="middle" class="sub">SW1 — 2960</text><text x="220" y="248" text-anchor="middle" class="label">Fa0/1: Port Security</text><text x="220" y="276" text-anchor="middle" class="small">Maximum 1 • Sticky • Shutdown</text>
+<rect x="70" y="390" width="300" height="90" rx="14" class="pc"/><text x="220" y="445" text-anchor="middle" class="sub">Authorized PC</text>
+<path d="M220 300 V390" class="ln"/><text x="250" y="350" class="small">Secure MAC learned</text>
+<text x="660" y="120" class="sub">2. Unauthorized replacement</text>
+<rect x="660" y="160" width="300" height="140" rx="16" class="sw"/><text x="810" y="210" text-anchor="middle" class="sub">SW1 — 2960</text><text x="810" y="248" text-anchor="middle" class="label">Fa0/1: Violation mode shutdown</text><text x="810" y="276" text-anchor="middle" class="small">Port enters err-disabled state</text>
+<rect x="660" y="390" width="300" height="90" rx="14" class="bad"/><text x="810" y="445" text-anchor="middle" class="sub">Different / Unauthorized PC</text>
+<path d="M810 300 V390" class="dash"/><text x="850" y="350" class="small">Violation</text>
+<text x="45" y="525" class="small">Test sequence: learn the authorized PC MAC, replace it with another PC, verify the violation, then remove it and recover the interface.</text>
+</svg>
