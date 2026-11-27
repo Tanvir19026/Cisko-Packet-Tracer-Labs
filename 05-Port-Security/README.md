@@ -13,7 +13,9 @@ A Cisco Packet Tracer lab demonstrating MAC address control on a switch access p
 
 ## Topology
 
-Open the Packet Tracer file to inspect the switch and end-device connections used in this activity.
+![Port Security sticky MAC and violation test topology](topology.svg)
+
+The diagram shows the two stages of the lab: first, the authorized PC is learned as a sticky secure MAC; then a different PC is connected to test the violation action. Open the Packet Tracer file to inspect the exact device and port layout.
 
 Devices used:
 - 1 Cisco 2960 switch
