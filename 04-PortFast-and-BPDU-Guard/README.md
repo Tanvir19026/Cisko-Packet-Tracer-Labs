@@ -12,7 +12,9 @@ A Cisco Packet Tracer lab demonstrating edge-port configuration and Layer 2 prot
 
 ## Topology
 
-![PortFast and BPDU Guard topology](screenshots/bpdu-guard-test.png)
+![PortFast and BPDU Guard protected edge-port topology](topology.svg)
+
+The diagram shows the test scenario: a second switch is connected to the edge port configured with PortFast and BPDU Guard. The saved Packet Tracer file contains the exact device and port layout.
 
 Devices visible in the submitted topology:
 - 2 Cisco 2960 switches
