@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs><style>.title{font:700 28px Arial;fill:#14213d}.sub{font:700 21px Arial;fill:#243b53}.label{font:16px Arial;fill:#243b53}.small{font:14px Arial;fill:#526579}.sw{fill:#e7f6ef;stroke:#23845b;stroke-width:3}.pc{fill:#eaf2ff;stroke:#3569a8;stroke-width:2.5}.alert{fill:#fff0ed;stroke:#c64a3b;stroke-width:2.5}.ln{stroke:#425466;stroke-width:5;fill:none}.bpdu{stroke:#c64a3b;stroke-width:5;stroke-dasharray:10 8;fill:none}</style></defs>
+<rect width="1200" height="520" fill="#fff"/>
+<text x="45" y="55" class="title">PortFast and BPDU Guard — Protected Edge Port</text>
+<rect x="90" y="175" width="300" height="150" rx="16" class="sw"/><text x="240" y="225" text-anchor="middle" class="sub">SW1 — Access Switch</text><text x="240" y="263" text-anchor="middle" class="label">Fa0/1: PortFast + BPDU Guard</text><text x="240" y="293" text-anchor="middle" class="small">End-device-facing edge port</text>
+<rect x="800" y="175" width="300" height="150" rx="16" class="sw"/><text x="950" y="225" text-anchor="middle" class="sub">SW2 — Test Switch</text><text x="950" y="263" text-anchor="middle" class="label">Unexpected BPDU source</text><text x="950" y="293" text-anchor="middle" class="small">Connected during protection test</text>
+<path d="M390 250 H800" class="bpdu"/><text x="595" y="220" text-anchor="middle" class="label">BPDU received</text>
+<rect x="440" y="365" width="320" height="90" rx="14" class="alert"/><text x="600" y="402" text-anchor="middle" class="sub">Fa0/1 → ERR-DISABLED</text><text x="600" y="432" text-anchor="middle" class="small">BPDU Guard protection action</text>
+<path d="M240 325 V410 H440" class="ln"/>
+<text x="45" y="495" class="small">During the lab, the PC was replaced by another switch. BPDU Guard detected BPDUs and shut down the protected edge port.</text>
+</svg>
