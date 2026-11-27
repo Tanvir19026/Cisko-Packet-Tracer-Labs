@@ -14,7 +14,9 @@ A Cisco Packet Tracer lab demonstrating Layer 2 loop prevention, Root Bridge ele
 
 ## Topology
 
-![STP and RSTP topology](screenshots/stp-rstp-topology.png)
+![STP and RSTP three-switch triangle topology](topology.svg)
+
+The diagram represents the three-switch redundant triangle used for the STP exercise. Actual root election and blocked-port placement depend on the Bridge IDs and link costs in the saved Packet Tracer file.
 
 Devices used:
 - 3 Cisco 2960 switches: SW1, SW2, SW3
