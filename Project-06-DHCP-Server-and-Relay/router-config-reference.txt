@@ -1,0 +1,35 @@
+PROJECT 06 — ROUTER CONFIGURATION REFERENCE
+=============================================
+
+Assumed router interfaces:
+- GigabitEthernet0/0 faces LAN 1 / Switch0.
+- GigabitEthernet0/1 faces LAN 2 / Switch2.
+Verify the actual physical connections in Packet Tracer.
+
+enable
+configure terminal
+
+interface gigabitEthernet 0/0
+ description LAN-1-SERVER-AND-LOCAL-CLIENTS
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+
+interface gigabitEthernet 0/1
+ description LAN-2-REMOTE-CLIENTS
+ ip address 192.168.20.1 255.255.255.0
+ ip helper-address 192.168.10.2
+ no shutdown
+exit
+
+end
+
+Verification:
+show ip interface brief
+show running-config
+show ip route
+
+DHCP relay note:
+Configure ip helper-address on the interface that receives the remote
+client's DHCP Discover broadcast. The address after ip helper-address
+is the DHCP Server address (192.168.10.2).
