@@ -30,8 +30,8 @@ The captured output shows successful replies from both 192.168.10.x destinations
 
 ## Additional evidence to add
 
-- `screenshots/01-dhcp-network-topology.png` — network topology.
-- `screenshots/02-dhcp-ping-tests.png` — submitted Command Prompt ping results.
+- `screenshots/dhcp.png` — DHCP configuration screenshot.
+- `screenshots/result.png` — submitted Command Prompt ping results.
 - DHCP Server Services > DHCP page showing both pools.
 - PC IP Configuration or `ipconfig` output for at least one client from each LAN.
 - Router `show ip interface brief` output.
