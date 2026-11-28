@@ -184,7 +184,12 @@ For a LAN 2 client, observe that the Discover reaches the router relay and is fo
 
 ## Connectivity and Test Results
 
-Record the actual results after completing the configuration. Do not mark a test as passed until it has been verified in Packet Tracer.
+The submitted ping screenshot records successful replies from 192.168.10.11 and 192.168.10.13 (4/4 each). The destinations 192.168.20.10 and 192.168.20.11 each returned 3/4 replies, with the first request timing out. This demonstrates reachability to both remote addresses in the captured test, but the initial packet loss should be rechecked with repeat pings.
+
+![DHCP project ping test results](screenshots/02-dhcp-ping-tests.png)
+
+The screenshot does not identify the source PC and does not show client DHCP configuration. DHCP pool assignment should be verified separately using ipconfig or the PC IP Configuration window. See [test-results.md](test-results.md) for the recorded details.
+
 
 | Test ID | Source | Destination / action | Result |
 |---|---|---|---|
@@ -200,6 +205,7 @@ Record the actual results after completing the configuration. Do not mark a test
 
 - dhcp.pkt — Packet Tracer project file (to be uploaded).
 - screenshots/01-dhcp-network-topology.png — submitted network topology screenshot (to be uploaded).
+- screenshots/02-dhcp-ping-tests.png — submitted ping test screenshot (to be uploaded).
 - ip-addressing.txt — addressing plan.
 - dhcp-pool-reference.txt — DHCP Server pool settings.
 - router-config-reference.txt — Router gateway and DHCP relay configuration.
