@@ -1,6 +1,6 @@
 # Cisco Packet Tracer Networking Labs
 
-Hands-on Cisco Packet Tracer labs focused on switching, VLANs, redundancy, and Layer 2 security.
+Hands-on Cisco Packet Tracer labs covering switching, VLANs, redundancy, Layer 2 security, routing, and network services such as DHCP.
 
 ## Projects
 
