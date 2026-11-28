@@ -1,0 +1,29 @@
+PROJECT 06 — SERVER-PT DHCP POOL SETTINGS
+===========================================
+
+Server0 static NIC configuration
+---------------------------------
+IP address:      192.168.10.2
+Subnet mask:     255.255.255.0
+Default gateway: 192.168.10.1
+DNS server:      8.8.8.8
+
+DHCP Service: ON
+
+Pool 1 — OFFICE-LAN
+-------------------
+Default gateway: 192.168.10.1
+DNS server:      8.8.8.8
+Start IP:        192.168.10.100
+Subnet mask:     255.255.255.0
+Maximum users:   50
+
+Pool 2 — LAN-2
+--------------
+Default gateway: 192.168.20.1
+DNS server:      8.8.8.8
+Start IP:        192.168.20.100
+Subnet mask:     255.255.255.0
+Maximum users:   50
+
+Create both pools. Do not delete or overwrite OFFICE-LAN when adding LAN-2.
