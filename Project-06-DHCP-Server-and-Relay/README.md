@@ -15,7 +15,7 @@ A Cisco Packet Tracer lab demonstrating centralized Dynamic Host Configuration P
 
 ## Topology
 
-See the submitted DHCP configuration and connectivity screenshots in the [Screenshots](#screenshots) section below. The topology used for the lab is described in the device and network layout sections.
+The current screenshots folder contains DHCP configuration and connectivity evidence. A dedicated topology screenshot can be added to that folder separately.
 
 The submitted topology contains:
 - 1 Cisco 2911 router (Router0)
@@ -208,15 +208,7 @@ The screenshot does not identify the source PC and does not show client DHCP con
 
 ## Screenshots
 
-### DHCP Server Configuration
-
-![DHCP Server screenshot](screenshots/dhcp.png)
-
-### Connectivity Test Results
-
-![Ping test results](screenshots/result.png)
-
-These are the image files currently stored in this project's `screenshots/` directory.
+The two screenshots are embedded above in the relevant sections: [DHCP configuration](screenshots/dhcp.png) and [connectivity test results](screenshots/result.png).
 
 ## Files and Evidence
 
