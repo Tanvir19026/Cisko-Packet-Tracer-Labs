@@ -1,0 +1,33 @@
+PROJECT 06 — IP ADDRESSING PLAN
+==================================
+
+Subnet mask for both LANs: 255.255.255.0 (/24)
+
+LAN 1 — Server and local clients
+--------------------------------
+Network:          192.168.10.0/24
+Router0 G0/0:     192.168.10.1
+Server0:          192.168.10.2 (STATIC)
+DHCP client pool: 192.168.10.100 onward
+Default gateway:  192.168.10.1
+DNS server:       8.8.8.8
+
+Clients planned on LAN 1:
+- PC0, PC1, PC2 on Switch0
+- PC3, PC4, PC5 on Switch1 (Switch1 uplinked to Switch0)
+
+LAN 2 — Remote clients
+----------------------
+Network:          192.168.20.0/24
+Router0 G0/1:     192.168.20.1
+DHCP client pool: 192.168.20.100 onward
+Default gateway:  192.168.20.1
+DNS server:       8.8.8.8
+
+Clients planned on LAN 2:
+- PC6, PC7, PC8 on Switch2
+
+IMPORTANT:
+- Switch0 and Switch1 are assumed to be one Layer 2 LAN in this project.
+- Verify actual Router0 interface assignments against the saved .pkt file.
+- Change the plan if VLANs or additional subnets are configured.
