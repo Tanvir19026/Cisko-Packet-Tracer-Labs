@@ -11,6 +11,7 @@ Hands-on Cisco Packet Tracer labs focused on switching, VLANs, redundancy, and L
 | `03-STP-RSTP-Redundant-Switching` | Root bridge election, STP port roles, loop prevention and failover |
 | `04-PortFast-and-BPDU-Guard` | Edge-port protection and BPDU Guard |
 | `05-Port-Security` | Sticky MAC learning, violation detection and recovery |
+| `Project-06-DHCP-Server-and-Relay` | Centralized DHCP, multiple LANs, DHCP relay and DORA |
 
 Each project folder contains its own explanation, configuration commands, verification steps, and Packet Tracer activity where available.
 
